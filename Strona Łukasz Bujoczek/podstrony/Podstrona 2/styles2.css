@@ -1,0 +1,284 @@
+@keyframes rainbow
+{
+    0% {border-color: #FF0000;}
+    10% {border-color: #E2571E;}
+    20% {border-color: #FF7F00;}
+    30% {border-color: #FFFF00;}
+    40% {border-color: #00FF00;}
+    50% {border-color: #96bf33;}
+    60% {border-color: #0000FF;}
+    70% {border-color: #4B0082;}
+    80% {border-color: #8B00FF;}
+    90% {border-color: #222222;}
+    100% {border-color: #FF0000;}
+}
+body
+{
+   margin:0;
+   padding:0;
+   background: black;
+}
+header
+{
+    height:6.5%;
+    width:100%;
+    background-color: black;
+    border-bottom: 3px solid;
+    position:absolute;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: rainbow;
+}
+.temat
+{
+    position:relative;
+    text-align:center;
+    top:-10%;
+    font-style: italic;
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+a.powrut 
+{
+    color:white;
+    position:absolute;
+    z-index:10;
+    color: white;
+    top: 2%;
+    left:2%;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size:20px;
+}
+.ja
+{
+    position:absolute;
+    top:64px;
+    width:20%;
+    left: 0;
+    top: 6.8%;
+    height:82.8%;
+    border-bottom:3px solid;
+    border-right:3px solid;
+    object-fit: cover;
+    float:left;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: rainbow;
+}
+section
+{
+    position:absolute;
+    top:6.8%;
+    left:20.15%;
+    width:60%;
+    height:82.8%;
+    background-color: khaki;
+    float:left;
+    border-bottom:3px solid;
+    background-color: #292929;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: rainbow;
+    border-right:3px solid;
+}
+p.tekst
+{
+    text-align: center;
+    font-size:30px;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color:white;
+}
+h3.tresc
+{
+    position:relative;
+    color:white;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+h2
+{
+    position:relative;
+    left:2%;
+    font-size: 30px;
+    color:white;
+}
+ol, li
+{
+    color:white;
+    font-size: 110%;
+    list-style-type: square;
+    text-align: center;
+}
+ol li a {
+    color: white;
+    text-align: center;
+}
+aside
+{
+    width:19.68%;
+    height:82.8%;
+    position: absolute;
+    top:6.8%;
+    right:0;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: rainbow;
+    border-bottom:3px solid;
+    background-color:rgb(70, 65, 65);
+}
+a
+{
+    text-decoration: none;
+}
+a:visited
+{
+    color:white;
+}
+h4 
+{
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+ul.interere 
+{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10px;
+    padding: 0;
+    list-style-type: none;
+    align-content: flex-start;
+}
+ul.interere li 
+{
+    display: flex;
+    height: 40px;
+    width:330px;
+    background-color: black;
+    flex-basis: 100%;
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+ul.interere li a.ainterere  
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    color:white;
+    text-align: center;
+    position:relative;
+    padding:10px;
+    border:3px solid;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: rainbow;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+ul li a {
+    color: white;
+}
+hr.pasek
+{
+    position: relative;
+    top:370px;
+}
+h5 
+{
+    position:relative;
+    top:340px;
+    color:tan;
+    text-align:center;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.kocica
+{
+    width:180px;
+    height:180px;
+    position:relative;
+    top:325px;
+    left:55px;
+    border-radius: 100px 100px 100px 100px;
+    transition: width 2s, height 2s, transform 2s;
+    border:3px solid;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: rainbow;
+    transform: 2s;
+}
+.kocica:hover
+{
+    height:215px;
+    width:215px;
+    transform:rotate(-360deg);
+    overflow: hidden;
+}
+/*width*/
+::-webkit-scrollbar {
+
+    width: 10px;
+    }
+    /*Track*/
+    ::-webkit-scrollbar-track {
+    
+    background: black;
+    }
+    
+    /*Handle*/
+    ::-webkit-scrollbar-thumb {
+    
+    background:black;
+    }
+    
+    /*Handle on hover*/
+    ::-webkit-scrollbar-thumb:hover {
+    
+    background:#292929;
+    }
+table
+{
+    position:absolute;
+    top:93%;
+    width:90%;
+    border-collapse: collapse;
+    left:5%;
+}
+th, td
+{
+    color:grey;
+    border: 3px solid grey;
+    border-collapse: collapse;
+    width:10%;
+}
+th.puste
+{
+    background-color: grey;
+}
+footer 
+{
+    width:99%;
+    height:5%;
+    clear:both;
+    position:absolute;
+    bottom:-35%;
+    text-align:center;
+}
+h6
+{
+    position:relative;
+    bottom:200%;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size:30px;
+    color:white;
+}
+a:hover
+{
+    color:darksalmon ;
+}

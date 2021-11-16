@@ -1,0 +1,288 @@
+@keyframes ruch
+{
+    0% {
+        left:90%; top:25%;
+        transform: rotate(360deg);
+    }
+    50% {
+        top: 1%;
+        transform: rotate(0deg);
+    }
+    100% {
+        top: 25%;
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes kop
+{
+    0% {left:90%; top:25%; transform: rotate(360deg);}
+    70% {left:7%; top:25%;  transform: rotate(-1080deg)}
+}
+@keyframes lswap
+{
+    0% {background-image:url(Grafiki\ Sport/bonetti.jpg); animation-duration: 1.5s; background-size: cover;}
+    30% {background-image:url(Grafiki\ Sport/cech.jpg); animation-duration: 3s; background-size: cover;}
+    45% {background-image:url(Grafiki\ Sport/cole.jpg); animation-duration: 3s; background-size: cover;}
+    60% {background-image:url(Grafiki\ Sport/desailly.jpg); animation-duration: 3s; background-size: cover;}
+    75% {background-image:url(Grafiki\ Sport/lampard.jpg); animation-duration: 3s; background-size: cover;}
+    90% {background-image:url(Grafiki\ Sport/drogba.jpg); animation-duration: 3s; background-size: cover;}
+    100% {background-image:url(Grafiki\ Sport/bonetti.jpg); animation-duration: 3s; background-size: cover;}
+}
+
+body 
+{
+    margin:0;
+    padding:0;
+    background-color:pink;
+}
+header 
+{
+    width:100%;
+    height:16.5%;
+    background-image:url(./Grafiki\ Sport/trawa.jpg);
+    border-bottom: 3px solid white;
+    position:fixed;
+    left:0;
+    top:0;
+    z-index:100;
+}
+.herb
+{
+    background: transparent;
+    width:5%;
+    height:60%;
+    position:relative;
+    top:25%;
+    left:90%;
+    z-index:2;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    z-index:100;
+}
+.niebo
+{
+    width:100%;
+    height:80px;
+    z-index:1;
+    background: url(./Grafiki\ Sport/trybuny.jpg);
+    position:fixed;
+    top:0;
+}
+.s1
+{
+   position:fixed;
+   background: white;
+   width:12%;
+   height:1%;
+   left:1.5%;
+   top:15%;
+   z-index:3;
+   z-index:100;
+}
+.s2
+{
+    position:fixed;
+    background: white;
+    width:0.5%;
+    height:14%;
+    left:13%;
+    top:2%;
+    z-index:3;
+    z-index:100;
+}
+.s3
+{
+    position:fixed;
+    background: white;
+    width:6%;
+    height:1.25%;
+    left:0.55%;
+    transform:rotate(-53deg);
+    top:9.8%;
+    z-index:3;
+    z-index:100;
+}
+.s4
+{
+    position:fixed;
+    background: white;
+    width:8%;
+    height:1.25%;
+    transform:rotate(-10deg);
+    left:5.2%;
+    top:3.75%;
+    z-index:3;
+    z-index:100;
+}
+.klub 
+{
+    width:100%;
+    height:5%;
+    background-color:blue;
+    position:absolute;
+    float:left; 
+    top:16.8%;
+    border-bottom: 3px solid white;
+}
+h1 
+{
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    top:-36%;
+    position:absolute;
+    left:35%;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: "Vibur", sans-serif;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+}
+.sklad
+{
+    position:absolute;
+    top:22.1%;
+    width:32.7%;
+    height:45.2%;
+    border-bottom: 3px solid white;
+    border-right: 2.5px solid white;
+}
+.druzyna
+{
+    position:absolute;
+    top:67.6%;
+    background-color: blueviolet;
+    width:32.62%;
+    height:9%;
+    border-bottom: 3px solid white;
+    border-right: 1px solid white;
+}
+h2
+{
+    text-align:center;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:170%;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: "Vibur", sans-serif;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+}
+aside 
+{
+    position:absolute;
+    right:0;
+    top:22.1%;
+    width:25%;
+    height:80%;
+    background-color: blue;
+    background-image: linear-gradient(to right,blue, white);
+    border-left: 3px solid white;
+    border-bottom: 3px solid white;
+}
+.legendy
+{
+    width:90%;
+    height:90%;
+    position: absolute;
+    right:5%;
+    top:4.5%;
+    border-radius:10% 10% 10% 10%;
+    animation-name:lswap;
+    animation-duration: 21s;
+    animation-iteration-count: infinite;
+    border-left:3px solid white;
+    border-top:3px solid white;
+    border-right:3px solid blue;
+    border-bottom:3px solid blue;
+}
+footer 
+{
+    width:100%;
+    height:10%;
+    bottom:-12.4%;
+    background-color:blue;
+    position: absolute;
+    clear:both;
+    border-top:3px solid white;
+}
+.widelo
+{
+    position:absolute;
+    left:32.7%;
+    top:22.1%;
+    border-bottom: 3px solid white;
+    border-left:3px solid white;
+}
+.powrut {
+	box-shadow:inset 3px -3px 0px 0px #f9eca0;
+	background:linear-gradient(to bottom, #f0c911 5%, #f2ab1e 100%);
+	background-color:#f0c911;
+	border-radius:7px;
+	border:3px solid #b84933;
+	display:inline-block;
+	cursor:pointer;
+	color:#c92200;
+	font-family:Arial;
+	font-size:28px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:-6px 3px 3px #ded17c;
+    position:absolute;
+    top:15%;
+    left:1%;
+}
+.powrut:hover {
+	background:linear-gradient(to bottom, #f2ab1e 5%, #f0c911 100%);
+	background-color:#f2ab1e;
+}
+.powrut:active {
+	position:relative;
+	top:1px;
+}
+.oficjalka
+{
+    width:74.8%;
+    height:25%;
+    position:absolute;
+    top:77%;
+}
+/*width*/
+::-webkit-scrollbar {
+
+    width: 10px;
+    }
+    /*Track*/
+    ::-webkit-scrollbar-track {
+    
+    background: black;
+    }
+    
+    /*Handle*/
+    ::-webkit-scrollbar-thumb {
+    
+    background:blue;
+    }
+    
+    /*Handle on hover*/
+    ::-webkit-scrollbar-thumb:hover {
+    
+    background:white;
+    }

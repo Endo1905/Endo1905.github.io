@@ -1,0 +1,269 @@
+@keyframes roz 
+{
+    0% {width:49.9%; height:30%;}
+    100% {width:55%; height:35.1%;}
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body 
+{
+    margin:0;
+    padding:0;
+    background-color: #292929;
+}
+header
+{
+    width:100%;
+    height:7%;
+    background-color: black;
+    position: absolute;
+    top:0;
+    border-bottom:3px solid white;
+    box-shadow: 
+    0 0 1px #fff,
+    0 0 3px #fff,
+    0 0 5px #fff,
+    0 0 70px rgb(73, 0, 116),
+    0 0 10px rgb(73, 0, 116),
+    0 0 20px rgb(73, 0, 116),
+    0 0 30px rgb(73, 0, 116),
+    0 0 40px rgb(73, 0, 116);
+    z-index:1;
+}
+h1
+{
+    color:white;
+    position: absolute;
+    top:-15%;
+    left:2%;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 
+    0 0 1px #fff,
+    0 0 3px #fff,
+    0 0 5px #fff,
+    0 0 10px rgb(73, 0, 116),
+    0 0 20px rgb(73, 0, 116),
+    0 0 30px rgb(73, 0, 116),
+    0 0 40px rgb(73, 0, 116),
+    0 0 50px rgb(73, 0, 116);
+}
+.lol
+{
+    width:49.9%;
+    height:30%;
+    float:left;
+    border-right:1.5px solid white;
+    z-index:-1;
+}
+.shen
+{
+    width:5%;
+    height:10%;
+    position:absolute;
+    top:42.5%;
+    z-index:2;
+    left:14%;
+    border-radius:50% 50% 50% 50%;
+    border:3px solid silver;
+}
+.jhin
+{
+    width:5%;
+    height:10%;
+    position:absolute;
+    top:38.5%;
+    z-index:2;
+    left:22.4%;
+    border-radius:50% 50% 50% 50%;
+    border:3px solid gold;  
+}
+.Thresh
+{
+    width:5%;
+    height:10%;
+    position:absolute;
+    top:42.5%;
+    z-index:2;
+    left:31%;
+    border-radius:50% 50% 50% 50%;
+    border:3px solid rgb(105, 3, 3);
+}
+.dbd
+{
+    width:49.9%;
+    height:30%;
+    float:right;
+    border-left:1.5px solid white;
+}
+.header2
+{
+    width:100%;
+    height:7%;
+    background-color: black;
+    position: absolute;
+    top:57.6%;
+    border-bottom:3px solid white;
+    border-top:3px solid white;
+    float:left;
+    box-shadow: 
+    0 0 1px #fff,
+    0 0 3px #fff,
+    0 0 5px #fff,
+    0 0 70px rgb(73, 0, 116),
+    0 0 10px rgb(73, 0, 116),
+    0 0 20px rgb(73, 0, 116),
+    0 0 30px rgb(73, 0, 116),
+    0 0 40px rgb(73, 0, 116);
+}
+h2
+{
+    color:white;
+    position: absolute;
+    top:-20%;
+    left:2%;
+    font-size: 200%;;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 
+    0 0 1px #fff,
+    0 0 3px #fff,
+    0 0 5px #fff,
+    0 0 10px rgb(73, 0, 116),
+    0 0 20px rgb(73, 0, 116),
+    0 0 30px rgb(73, 0, 116),
+    0 0 40px rgb(73, 0, 116),
+    0 0 50px rgb(73, 0, 116);
+}
+.w3
+{
+    width:33.3%;
+    height:50%;
+    position: absolute;
+    top:64%;
+    left:0;
+    z-index:-1;
+    border-right:2px solid white;
+}
+.batman
+{
+    width:33.3%;
+    height:50%;
+    position: absolute;
+    top:64%;
+    left:33.3%;
+    z-index:-1;
+    border-right:2px solid white;
+    border-left:2px solid white;
+}
+.mc
+{
+    width:33.3%;
+    height:50%;
+    position: absolute;
+    top:64%;
+    right:0;
+    z-index:-1;
+    border-left:2px solid white;
+}
+footer 
+{
+    width:100%;
+    height:7%;
+    background-color: black;
+    position: absolute;
+    bottom:-21%;
+    border-top:3px solid white;
+    box-shadow: 
+    0 0 1px #fff,
+    0 0 3px #fff,
+    0 0 5px #fff,
+    0 0 70px rgb(73, 0, 116),
+    0 0 10px rgb(73, 0, 116),
+    0 0 20px rgb(73, 0, 116),
+    0 0 30px rgb(73, 0, 116),
+    0 0 40px rgb(73, 0, 116);
+    z-index:1;
+}
+/*width*/
+::-webkit-scrollbar {
+
+    width: 10px;
+    }
+    /*Track*/
+    ::-webkit-scrollbar-track {
+    
+    background: black;
+    box-shadow: 
+    0 0 1px #fff,
+    0 0 3px #fff,
+    0 0 5px #fff,
+    0 0 70px rgb(73, 0, 116),
+    0 0 10px rgb(73, 0, 116),
+    0 0 20px rgb(73, 0, 116),
+    0 0 30px rgb(73, 0, 116),
+    0 0 40px rgb(73, 0, 116);
+    }
+    
+    /*Handle*/
+    ::-webkit-scrollbar-thumb {
+    
+    background:black;
+    box-shadow: 
+    0 0 1px #fff,
+    0 0 3px #fff,
+    0 0 5px #fff,
+    0 0 70px rgb(73, 0, 116),
+    0 0 10px rgb(73, 0, 116),
+    0 0 20px rgb(73, 0, 116),
+    0 0 30px rgb(73, 0, 116),
+    0 0 40px rgb(73, 0, 116);
+    }
+    
+    
+    /*Handle on hover*/
+    ::-webkit-scrollbar-thumb:hover {
+    
+    background:black;
+    box-shadow: 
+    0 0 1px #fff,
+    0 0 3px #fff,
+    0 0 5px #fff,
+    0 0 70px rgb(73, 0, 116),
+    0 0 10px rgb(73, 0, 116),
+    0 0 20px rgb(73, 0, 116),
+    0 0 30px rgb(73, 0, 116),
+    0 0 40px rgb(73, 0, 116);
+}
+.powrut {
+	box-shadow: 6px 7px 0px 0px #872681;
+	background:linear-gradient(to bottom, #660763 5%, #30110f 100%);
+	background-color:#660763;
+	border-radius:18px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:22px;
+	padding:7px 20px;
+	text-decoration:none;
+	text-shadow:4px 4px 0px #4a100c;
+    position:absolute;
+    top:20%;
+    left:1%;
+    box-shadow: 
+    0 0 1px #fff,
+    0 0 3px #fff,
+    0 0 5px #fff,
+    0 0 70px rgb(73, 0, 116),
+    0 0 10px rgb(73, 0, 116),
+    0 0 20px rgb(73, 0, 116),
+    0 0 30px rgb(73, 0, 116),
+    0 0 40px rgb(73, 0, 116);
+}
+.powrut:hover {
+	background:linear-gradient(to bottom, #30110f 5%, #660763 100%);
+	background-color:#30110f;
+}
+.powrut:active {
+	position:relative;
+	top:1px;
+}

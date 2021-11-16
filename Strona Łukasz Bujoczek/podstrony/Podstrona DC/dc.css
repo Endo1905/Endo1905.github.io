@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400&display=swap');
+body 
+{
+    padding:0;
+    margin:0;
+    background-image: url(./Grafiki\ DC/rain.gif);
+    background-size: cover;
+}
+.ikona2
+{
+    width:10%;
+    height:10%;
+}
+header 
+{
+    position:absolute;
+    background-image: url(./Grafiki\ DC/tloHeader.jpg);
+    background-size: cover;
+    width:100%;
+    height:15%;
+    top:0;
+    border-bottom: 3px solid white;
+}
+.BatmanRP
+{
+    position: absolute;
+    top:15.5%;
+    right:0%;
+    width:43%;
+    height:163%;
+    background-image: url(./Grafiki\ DC/Batman.jpg);
+    background-size: cover;
+    border-left:3px solid white;
+    border-bottom:3px solid white;
+    z-index:-1;
+}
+.pattison
+{
+    width:30%;
+    height:10%;
+    border:3px solid white;
+    background-color:black;
+    position: absolute;
+    right:5.5%;
+    top:17%;
+    z-index:1;
+}
+.trailer
+{
+    position:absolute;
+    top:84%;
+    right:1%;
+    width:40%;
+    height:50%;
+    border:3px solid white;
+    box-shadow: 
+    0 0 1px #fff,
+    0 0 3px #fff,
+    0 0 5px #fff,
+    0 0 70px orange,
+    0 0 10px orange,
+    0 0 20px orange,
+    0 0 30px orange,
+    0 0 40px orange;
+}
+.trailer0
+{
+    position:absolute;
+    top:29%;
+    right:1%;
+    width:40%;
+    height:50%;
+    border:3px solid white;
+    box-shadow: 
+    0 0 1px #fff,
+    0 0 3px #fff,
+    0 0 5px #fff,
+    0 0 70px orange,
+    0 0 10px orange,
+    0 0 20px orange,
+    0 0 30px orange,
+    0 0 40px orange;
+}
+h2 
+{
+    position:relative;
+    left:17%;
+    top:7%;
+    color:black;
+    font-family: 'Teko', sans-serif;
+    font-size: 180%;
+    text-shadow: 
+    0 0 1px #fff,
+    0 0 3px #fff,
+    0 0 5px #fff,
+    0 0 70px rgb(255, 0, 0),
+    0 0 10px rgb(255, 0, 0),
+    0 0 20px rgb(255, 0, 0),
+    0 0 30px rgb(255, 0, 0),
+    0 0 40px rgb(255, 0, 0);
+}
+.ulubieni
+{
+    position: absolute;
+    top:15.5%;
+    left:0;
+    width:56.85%;
+    height:10%;
+    background-color:black;
+    z-index:-1;
+    border-bottom: 3px solid white;
+}
+h3 
+{
+    font-family: 'Teko', sans-serif;
+    position:absolute;
+    left:38.5%;
+    top:-2%;
+    color:white;
+    font-size:250%;
+}
+.Bale 
+{
+    position: absolute;
+    left:0;
+    top:25.8%;
+    width:20%;
+    height:30%;
+    border-bottom: 3px solid white;
+    border-right:3px solid white;
+}
+.InfoBale
+{
+    width:36.64%;
+    height:30%;
+    top:25.8%;
+    background-image:url(./Grafiki\ DC/logoCB.jpg);
+    background-size: cover;
+    position:absolute;
+    left:20.2%;
+    border-bottom:3px solid white;
+}
+h4 
+{
+    font-size:150%; 
+    text-align: center; 
+    color:white; 
+    font-family: 'Teko', sans-serif;
+}
+ol, li 
+{
+    font-size:110%; 
+    color:white; 
+    font-family: 'Teko', sans-serif;
+    list-style-type:circle;
+}
+ul 
+{
+    list-style-type: dotted;
+}
+.Kilmer
+{
+    position: absolute;
+    left:0;
+    top:56%;
+    width:20%;
+    height:30%;
+    border-bottom: 3px solid white;
+    border-right:3px solid white;
+    border-top: 1px solid white;
+}
+.InfoKilmer
+{
+    width:36.64%;
+    height:30%;
+    top:56%;
+    background-image:url(./Grafiki\ DC/logoK.png);
+    background-size: cover;
+    position:absolute;
+    left:20.2%;
+    border-bottom:3px solid white;
+    border-top: 1px solid white;
+}
+.Keaton
+{
+    position: absolute;
+    left:0;
+    top:86.2%;
+    width:20%;
+    height:30%;
+    border-bottom: 3px solid white;
+    border-right:3px solid white;
+    border-top: 3px solid white;
+}
+.InfoKeaton
+{
+    width:36.64%;
+    height:30%;
+    top:86.2%;
+    background-image:url(./Grafiki\ DC/logo.jpg);
+    background-size: cover;
+    position:absolute;
+    left:20.2%;
+    border-bottom:3px solid white;
+    border-top: 3px solid white;
+}
+.Conroy
+{
+    position: absolute;
+    left:0;
+    top:116.4%;
+    width:20%;
+    height:30%;
+    border-bottom: 3px solid white;
+    border-right:3px solid white;
+    border-top: 3px solid white;
+}
+.InfoConroy
+{
+    width:36.64%;
+    height:30%;
+    top:116.4%;
+    background-image:url(./Grafiki\ DC/logoConroy.jpg);
+    background-size: cover;
+    position:absolute;
+    left:20.2%;
+    border-bottom:3px solid white;
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+}
+.Affleck
+{
+    position: absolute;
+    left:0;
+    top:146.6%;
+    width:20%;
+    height:30%;
+    border-right:3px solid white;
+    border-top: 3px solid white;
+}
+.InfoAffleck
+{
+    width:36.64%;
+    height:30%;
+    top:146.6%;
+    background-image:url(./Grafiki\ DC/logoAffleck.jpg);
+    background-size: cover;
+    position:absolute;
+    left:20.2%;
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+}
+section 
+{
+    width:100%;
+    height:10%;
+    position:absolute;
+    bottom:-87.3%;
+    background-image: linear-gradient(to right,black 30%, rgb(185, 47, 5) 100%);
+    border-top: 3px solid white;
+    border-bottom:3px solid white;
+}
+.tlo
+{
+    position:absolute;
+    top:187.3%;
+    width:100%;
+    height:122%;
+    background-image:url(./Grafiki\ DC/tlo.jpg);
+}
+.TwoFace
+{
+    position: absolute;
+    top:190%;
+    width:30%;
+    height:50%;
+    left:2%;
+    border:3px solid white;
+    box-shadow: 
+        0 0 1px #fff,
+        0 0 3px #fff,
+        0 0 5px #fff,
+        0 0 70px purple,
+        0 0 10px purple,
+        0 0 20px purple,
+        0 0 30px purple,
+        0 0 40px purple;
+}
+.InfoTwoFace
+{ 
+    position: absolute;
+    top:243%;
+    width:30%;
+    height:45%;
+    left:2%;
+    background-color:black;
+    border:3px solid white;
+    box-shadow: 
+        0 0 1px #fff,
+        0 0 3px #fff,
+        0 0 5px #fff,
+        0 0 70px purple,
+        0 0 10px purple,
+        0 0 20px purple,
+        0 0 30px purple,
+        0 0 40px purple;
+        
+}
+.Riddler
+{
+    position: absolute;
+    top:190%;
+    width:30%;
+    height:50%;
+    left:35%;
+    border:3px solid white;
+    box-shadow: 
+    0 0 1px #fff,
+    0 0 3px #fff,
+    0 0 5px #fff,
+    0 0 70px rgb(9, 197, 9),
+    0 0 10px rgb(9, 197, 9),
+    0 0 20px rgb(9, 197, 9),
+    0 0 30px rgb(9, 197, 9),
+    0 0 40px rgb(9, 197, 9);
+}
+.InfoRiddler
+{ 
+    position: absolute;
+    top:243%;
+    width:30%;
+    height:45%;
+    left:35%;
+    background-color:black;
+    border:3px solid white;
+    box-shadow: 
+    0 0 1px #fff,
+    0 0 3px #fff,
+    0 0 5px #fff,
+    0 0 70px rgb(9, 197, 9),
+    0 0 10px rgb(9, 197, 9),
+    0 0 20px rgb(9, 197, 9),
+    0 0 30px rgb(9, 197, 9),
+    0 0 40px rgb(9, 197, 9);
+}
+.Scarecrow
+{
+    position: absolute;
+    top:190%;
+    width:30%;
+    height:50%;
+    left:68%;
+    border:3px solid white;
+    box-shadow: 
+    0 0 1px #fff,
+    0 0 3px #fff,
+    0 0 5px #fff,
+    0 0 7px orange,
+    0 0 10px orange,
+    0 0 20px orange,
+    0 0 30px orange,
+    0 0 40px orange;
+}
+.InfoScarecrow
+{ 
+    position: absolute;
+    top:243%;
+    width:30%;
+    height:45%;
+    left:68%;
+    background-color:black;
+    border:3px solid white;
+    box-shadow: 
+    0 0 1px #fff,
+    0 0 3px #fff,
+    0 0 5px #fff,
+    0 0 70px orange,
+    0 0 10px orange,
+    0 0 20px orange,
+    0 0 30px orange,
+    0 0 40px orange;
+}
+.VillainsList
+{
+    font-size:140%; 
+    color:white; 
+    font-family: 'Teko', sans-serif;
+    list-style-type:circle;
+}
+p 
+{
+    font-family: 'Teko', sans-serif;
+    font-size:140%; 
+    color:white; 
+    position: absolute;
+    left:50%;
+    bottom:-5%;
+}
+.dwa
+{
+    font-family: 'Teko', sans-serif;
+    font-size:140%; 
+    color:white; 
+    position: absolute;
+    left:50%;
+    bottom:-5%;
+}
+.trzy
+{
+    font-family: 'Teko', sans-serif;
+    font-size:140%; 
+    color:white; 
+    position: absolute;
+    left:50%;
+    bottom:-5%;
+}
+.powrut
+{
+    position: absolute;
+    left:2%;
+    width:10%;
+    height:12%;
+    bottom:-207%;
+    z-index:3;
+}
+.powrut:hover
+{
+    position: absolute;
+    bottom:-209%;
+    width:12%;
+    height:15%
+}
+footer 
+{
+    position: absolute;
+    bottom:-210%;
+    background-color:black;
+    width:100%;
+    height:18%;
+    border-top:3px solid white;
+}
+h5 
+{
+    position:absolute;
+    top:10%;
+    text-align:center;
+    left:40%;
+    color:white;
+    font-family: 'Teko', sans-serif;
+    font-size:200%;
+}
